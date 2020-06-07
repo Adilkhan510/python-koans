@@ -14,7 +14,7 @@ set SCRIPT=
 REM Hunt around for python
 IF EXIST "python.exe" (
   SET SCRIPT=%RUN_KOANS%
-) ELSE (
+) ELSE ( 
   IF EXIST "%PYTHON_PATH%" (
     SET SCRIPT=%PYTHON_PATH%\%RUN_KOANS%
   ) ELSE (
